@@ -31,7 +31,7 @@ def wipe_disk():
             return
         wipe_disk_windows(disk)
     elif os_name == 'Linux':
-        num_passes = num_passes_entry.get()
+        num_passes = int(num_passes_entry.get())  # Convert to integer here
         if not os.path.exists(disk):
             messagebox.showerror('Error', f'Disk {disk} does not exist.')
             return
