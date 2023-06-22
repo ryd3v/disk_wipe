@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# Ryan Collins
+# 2023
+# @ryd3v
 import os
 import platform
 import subprocess
