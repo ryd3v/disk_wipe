@@ -1,2 +1,4 @@
 /.idea/
 /venv/
+/build/
+/wipe_disk_gui.spec
