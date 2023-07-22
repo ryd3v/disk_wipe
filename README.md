@@ -16,12 +16,20 @@ the wipe operation, as the process is irreversible and could result in permanent
 ```bash
 sudo python3 wipe_disk_gui.py
 ```
-or 
+
+or
 
 ```bash
 sudo ./wipe_disk_gui
 ```
+
 if using the linux appimage from the releases page
+
+### For Fedora:
+
+```bash
+sudo dnf install python3-tkinter
+```
 
 ----
 
