@@ -1,45 +1,6 @@
-# Disk Wipe
+# This program has been replaced by the new DiskWipe Repo!
 
-Disk Wipe is a versatile tool designed for the secure erasure of storage media on both Windows and Linux operating
-systems. By employing robust wiping methods, it ensures that the data on the specified disk is irretrievably deleted,
-making it an effective solution for anti-forensic processes. This application offers a user-friendly interface and
-real-time progress tracking, making data sanitization accessible and transparent. Please note that the use of Disk Wipe
-is at the user's own risk and discretion. It is highly recommended to backup any important data before proceeding with
-the wipe operation, as the process is irreversible and could result in permanent data loss.
-
-### This program requires [Python3](https://www.python.org/)
-
-----
-
-## Linux
-
-```bash
-sudo python3 wipe_disk_gui.py
-```
-
-or
-
-```bash
-sudo ./wipe_disk_gui
-```
-
-if using the linux appimage from the releases page
-
-### For Fedora:
-
-```bash
-sudo dnf install python3-tkinter
-```
-
-----
-
-## Windows
-
-The Program runs, *Writing 0x00*, then *Writing 0xFF*, finally *Writing Random Numbers*.
-
-When the application finishes, it creates a text file with the results of the wipe.
-
-----
+## https://github.com/ryd3v/DiskWipe
 
 ### DISCLAIMER:
 
